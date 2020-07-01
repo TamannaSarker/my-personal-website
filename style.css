@@ -1,0 +1,107 @@
+/* This is header and middle part */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+p{
+    color: dimgray;
+}
+
+.margin-top{
+    margin-top: 115px;
+}
+
+.name-highlight{
+    letter-spacing: 3px;
+    color: #FF1493;
+    font-size: 40px}
+    
+    
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;}
+
+section{
+        height: 500px;
+        padding-bottom: 150px;
+        background-repeat: no-repeat;
+    }
+
+    
+.link-button{
+        text-decoration: none;
+        background-image: linear-gradient(45deg, hotpink, deeppink);
+        padding: 7px 30px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700; }
+
+a:hover{
+        background: #00FFFF;
+         height: 20px;
+         width: 20px;
+        color:hotpink;}
+                   
+        
+
+ .header-part{
+            background-image: url("imeges/header-bg.png");
+            background-size: cover;}
+
+.middle-part{
+    background-image: url("imeges/biography-bg.png");
+            background-size: cover;}
+        
+
+/*another middle part*/
+
+#header{
+    text-align: center;}
+
+.imege-container{
+    float:flex ;
+    width: 400px;
+    height: 330px;
+    margin: 100px 5px;
+    
+}
+    
+
+.another-middle-part{
+    background-image: url("imeges/latest-work-bg.png");
+    background-size: cover;
+}
+
+
+/* This is footer part */
+.footer-part{
+    text-align: center;
+    margin: auto;
+    background-image: url("imeges/footer-bg.png");
+    background-size: cover;
+}
+.text-highlight{
+    
+    margin: 5px 300px;
+    background-image: linear-gradient(45deg, hotpink, deeppink);
+    padding: 7px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700; 
+
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.text{
+    text-align: center;
+}
